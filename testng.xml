@@ -1,0 +1,12 @@
+<suite name="API Tests" parallel="tests" thread-count="5">
+    <test name="Get All Posts Tests">
+        <classes>
+            <class name="com.sqa.tests.DeletePostsTests" />
+            <class name="com.sqa.tests.GetAllPostsTests" />
+            <class name="com.sqa.tests.GetPostsByIDTests" />
+            <class name="com.sqa.tests.PatchPostsTests" />
+            <class name="com.sqa.tests.PostPostsTests" />
+            <class name="com.sqa.tests.PutPostsTests" />
+        </classes>
+    </test>
+</suite>
